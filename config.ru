@@ -1,2 +1,2 @@
-require './draminate'
+require './web'
 run Sinatra::Application

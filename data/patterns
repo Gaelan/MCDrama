@@ -1,12 +1,12 @@
-%person refuses to fix %mod's incompatibility with %mod
+$mod:author refuses to fix %mod's incompatibility with %mod
 %person says %mod causes %badthing
 %person says %mod is %badadjective
 %person says %badthing is not a problem
 %person says %mod belongs in %pack
-%person removes %mod from %pack
+$pack:author removes %mod from %pack
 %person dislikes %mod
-%person makes %mod %badverb when in a pack with %mod
-%person makes %mod %badverb in %pack
-%person bans %person from %server
-%person refuses to update %mod
-%person refuses to port their mod to %runtime
+$mod:author makes %mod %badverb when in a pack with %mod
+$mod:author makes %mod %badverb in %pack
+$server:author bans %person from %server
+$mod:author refuses to update %mod
+$mod:author refuses to port %mod to %runtime
