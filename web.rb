@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'json'
 require './draminate'
 
 get '/txt' do
@@ -9,6 +10,18 @@ end
 get '/txt/:seed' do
 	Random.srand(params[:seed].to_i)
 	draminate
+end
+
+get '/json' do
+	seed = Random.new_seed
+	Random.srand(seed)
+	{seed: seed, drama: draminate}.to_json
+end
+
+get '/json/:seed' do
+	sed = params[:seed].to_i
+	Random.srand(seed)
+	{seed: seed, drama: draminate}.to_json
 end
 
 get '/' do
