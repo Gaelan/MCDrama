@@ -1,2 +1,2 @@
 require './draminate'
-puts draminate
+10.times {puts draminate}

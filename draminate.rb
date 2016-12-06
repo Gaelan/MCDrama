@@ -24,10 +24,16 @@ def draminate
 		drama.gsub(/\$([a-z]+):([a-z]+)/) do
 			source_type = $1
 			attr = $2
-			select_from_dict(attr, selections[source_type])
+			p source_type if source_type == 'mentioned'
+			if attr == 'mentioned'
+				throw MissingData.new unless selections[source_type]
+				selections[source_type]
+			else	
+				select_from_dict(attr, selections[source_type])
+			end
 		end
-	rescue
-		puts 'retrying'
+	rescue StandardError => e
+		puts "retrying for #{e}"
 		retry
 	end
 end

@@ -8,6 +8,7 @@ $pack:author removes %mod from %pack
 $mod:author makes %mod %badverb when in a pack with %mod
 $mod:author makes %mod %badverb in %pack
 $server:author bans %person from %server
+%person is banned from %community
 $mod:author refuses to update %mod
 $mod:author refuses to port %mod to %runtime
 %person says %pack is better than %pack
