@@ -1,6 +1,15 @@
 require 'sinatra'
 require './draminate'
 
+get '/txt' do
+	draminate
+end
+
+get '/txt/:seed' do
+	Random.srand(params[:seed].to_i)
+	draminate
+end
+
 get '/' do
 	seed = Random.new_seed
 	Random.srand(seed)
@@ -12,6 +21,7 @@ get '/:seed' do
 	Random.srand(seed)
 	erb :drama, locals: {seed: seed, drama: draminate}
 end
+
 
 __END__
 
