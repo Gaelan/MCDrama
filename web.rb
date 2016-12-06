@@ -19,7 +19,7 @@ get '/json' do
 end
 
 get '/json/:seed' do
-	sed = params[:seed].to_i
+	seed = params[:seed].to_i
 	Random.srand(seed)
 	{seed: seed, drama: draminate}.to_json
 end
