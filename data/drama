@@ -30,6 +30,6 @@ $mod:author refuses to support %mod
 %person says his drama generator is better than %person's
 $mod:author adds %feature to %mod
 $mod:author removes %feature from %mod
-$mod:author adds config option for %feature to %mod
-$mod:author refuses to add config for %feature to %mod
-$mod:author removes config for %feature from %mod
+$mod:author adds config option to %mod for %feature
+$mod:author refuses to add config to %mod for %feature
+$mod:author removes config for to %mod for %feature 
