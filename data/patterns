@@ -10,3 +10,15 @@ $mod:author makes %mod %badverb in %pack
 $server:author bans %person from %server
 $mod:author refuses to update %mod
 $mod:author refuses to port %mod to %runtime
+%person says %pack is better than %pack
+%person says %server is better than %server
+%person says %runtime is better than %runtime
+%person says %platform is better than %platform
+%mod %badverb under %platform
+%person says %platform %badthing
+%person says players should use %platform
+%person says players should not use %platform
+%person says players should play on %runtime
+%person says players should not play on %runtime
+$mod:author adds $mod to $platform
+$pack:author adds $pack to $platform
