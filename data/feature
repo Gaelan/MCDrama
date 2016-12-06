@@ -1,0 +1,5 @@
+%power support
+%mod integration
+config support
+$mod:modfeature
+update notifier
