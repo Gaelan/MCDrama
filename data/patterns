@@ -15,7 +15,7 @@ $mod:author refuses to port %mod to %runtime
 %person says %runtime is better than %runtime
 %person says %platform is better than %platform
 %mod %badverb under %platform
-%person says %platform %badthing
+%person says %platform %badverb
 %person says players should use %platform
 %person says players should not use %platform
 %person says players should play on %runtime
