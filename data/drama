@@ -28,3 +28,8 @@ $mod:author refuses to support %mod
 %mod dropped support for %mod
 %mod now depends on %mod
 %person says his drama generator is better than %person's
+$mod:author adds %feature to %mod
+$mod:author removes %feature from %mod
+$mod:author adds config option for %feature to %mod
+$mod:author refuses to add config for %feature to %mod
+$mod:author removes config for %feature from %mod
