@@ -20,8 +20,8 @@ $mod:author refuses to port %mod to %runtime
 %person says players should not use %platform
 %person says players should play on %runtime
 %person says players should not play on %runtime
-$mod:author adds $mod to $platform
-$pack:author adds $pack to $platform
+$mod:author adds %mod to %platform
+$pack:author adds %pack to %platform
 $mod:author refuses to support %mod
 %mod dropped support for %mod
 %mod now depends on %mod
