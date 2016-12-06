@@ -1,35 +1,35 @@
-$mod:author refuses to fix %mod's incompatibility with %mod
-%person says %mod causes %badthing
-%person says %mod is %badadjective
-%person says %badthing $badthing:is not a problem
-%person says %mod belongs in %pack
-$pack:author removes %mod from %pack
-%person dislikes %mod
-$mod:author makes %mod %badverbinfinitive when in a pack with %mod
-$mod:author makes %mod %badverbinfinitive in %pack
-$server:author bans %person from %server
-%person is banned from %community
-$mod:author refuses to update %mod
-$mod:author refuses to port %mod to %runtime
-%person says %pack is better than %pack
-%person says %server is better than %server
-%person says %runtime is better than %runtime
-%person says %platform is better than %platform
-%mod %badverbpresent under %platform
-%person says %platform %badverbpresent
-%person says players should use %platform
-%person says players should not use %platform
-%person says players should play on %runtime
-%person says players should not play on %runtime
+$mod:author adds %feature to %mod
 $mod:author adds %mod to %platform
-$pack:author adds %pack to %platform
+$mod:author adds config option to %mod for %feature
+$mod:author makes %mod %badverbinfinitive in %pack
+$mod:author makes %mod %badverbinfinitive when in a pack with %mod
+$mod:author refuses to add config to %mod for %feature
+$mod:author refuses to fix %mod's incompatibility with %mod
+$mod:author refuses to port %mod to %runtime
 $mod:author refuses to support %mod
-%person refuses to support %mod
+$mod:author refuses to update %mod
+$mod:author removes %feature from %mod
+$mod:author removes config from %mod for %feature 
+$pack:author adds %pack to %platform
+$pack:author removes %mod from %pack
+$server:author bans %person from %server
+%mod %badverbpresent under %platform
 %mod dropped support for %mod
 %mod now depends on %mod
+%person dislikes %mod
+%person is banned from %community
+%person refuses to support %mod
+%person says %badthing $badthing:is not a problem
+%person says %mod belongs in %pack
+%person says %mod causes %badthing
+%person says %mod is %badadjective
+%person says %pack is better than %pack
+%person says %platform %badverbpresent
+%person says %platform is better than %platform
+%person says %runtime is better than %runtime
+%person says %server is better than %server
 %person says his drama generator is better than %person's
-$mod:author adds %feature to %mod
-$mod:author removes %feature from %mod
-$mod:author adds config option to %mod for %feature
-$mod:author refuses to add config to %mod for %feature
-$mod:author removes config from %mod for %feature 
+%person says players should not play on %runtime
+%person says players should not use %platform
+%person says players should play on %runtime
+%person says players should use %platform

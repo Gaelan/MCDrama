@@ -1,58 +1,58 @@
-Botania:passive flowers
-Botania:RF generating flower
-Tinker's Construct:smelteries
-Tinker's Construct:crossbows
-Tinker's Construct:hammers
-RotaryCraft:Extractors
-RotaryCraft:math
-Forge:coremods
-FML:coremods
-Quark:pirate ships
-Quark:stair recipes
-Quark:red creepers
-Natura:oreberry bushes
-Natura:xp bushes
-JourneyMap:death points
-JourneyMap:waypoints
-The One Probe:horse stats
-The One Probe:chest contents
-RFTools:builders
-RFTools:diamond block dimensions
-Buildcraft:gates
-Buildcraft:quarries
-Thaumcraft:nodes
-Thaumcraft:research
-Ender Zoo:annoying mobs
-Storage Drawers:Ender Drawers
-Storage Drawers:locks
-Iron Chests:dirt chests
-Extra Utilites:spikes
-Chisel and Bits:copy and paste
-Chisel and Bits:bigger bit bags
-Harvestcraft:gardens
-NEI:recipes
-NEI:buttons
-JEI:recipes
-JEI:buttons
-TMI:recipes
-TMI:buttons
 AE2:channels
 AE2:spatial cells
-Railcraft:signals
-Railcraft:more expensive tracks
-Immersive Engineering:multiblocks
-Draconic Evolution:balance
-JABBA:ender barrels
 Baubles:a shoelaces slot
-ComputerCraft:power usage
+Botania:RF generating flower
+Botania:alfheim dimension
+Botania:passive flowers
+Buildcraft:gates
+Buildcraft:quarries
+Charset:backpacks
+Charset:gates
+Charset:wires
+Chisel and Bits:bigger bit bags
+Chisel and Bits:copy and paste
 ComputerCraft:JavaScript support
 ComputerCraft:Lua support
-OpenComputers:power usage
+ComputerCraft:power usage
+Draconic Evolution:balance
+Ender Zoo:annoying mobs
+Extra Utilites:spikes
+FML:coremods
+FTBUtilites:chunk claiming
+Forge:coremods
+Harvestcraft:gardens
+Immersive Engineering:multiblocks
+Iron Chests:dirt chests
+JABBA:ender barrels
+JEI:buttons
+JEI:recipes
+JourneyMap:death points
+JourneyMap:waypoints
+NEI:buttons
+NEI:recipes
+Natura:oreberry bushes
+Natura:xp bushes
 OpenComputers:JavaScript support
 OpenComputers:Lua support
+OpenComputers:power usage
+Quark:pirate ships
+Quark:red creepers
+Quark:stair recipes
+RFTools:builders
+RFTools:diamond block dimensions
+Railcraft:more expensive tracks
+Railcraft:signals
 Refraction:lasers
-FTBUtilites:chunk claiming
-Botania:alfheim dimension
-Charset:wires
-Charset:gates
-Charset:backpacks
+RotaryCraft:Extractors
+RotaryCraft:math
+Storage Drawers:Ender Drawers
+Storage Drawers:locks
+TMI:buttons
+TMI:recipes
+Thaumcraft:nodes
+Thaumcraft:research
+The One Probe:chest contents
+The One Probe:horse stats
+Tinker's Construct:crossbows
+Tinker's Construct:hammers
+Tinker's Construct:smelteries
