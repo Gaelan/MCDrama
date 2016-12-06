@@ -8,4 +8,5 @@ BSODs
 discourse
 rage quits
 mental breakdowns
-
+NullPointerException
+IndexArrayOutOfBoundsException
