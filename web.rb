@@ -2,6 +2,7 @@ require 'sinatra'
 require './draminate'
 
 get '/txt' do
+	Random.srand
 	draminate
 end
 
