@@ -32,4 +32,4 @@ $mod:author adds %feature to %mod
 $mod:author removes %feature from %mod
 $mod:author adds config option to %mod for %feature
 $mod:author refuses to add config to %mod for %feature
-$mod:author removes config for to %mod for %feature 
+$mod:author removes config from %mod for %feature 
