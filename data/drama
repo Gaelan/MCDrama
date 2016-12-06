@@ -1,12 +1,12 @@
 $mod:author refuses to fix %mod's incompatibility with %mod
 %person says %mod causes %badthing
 %person says %mod is %badadjective
-%person says %badthing is not a problem
+%person says %badthing $badthing:is not a problem
 %person says %mod belongs in %pack
 $pack:author removes %mod from %pack
 %person dislikes %mod
-$mod:author makes %mod %badverb when in a pack with %mod
-$mod:author makes %mod %badverb in %pack
+$mod:author makes %mod %badverbinfinitive when in a pack with %mod
+$mod:author makes %mod %badverbinfinitive in %pack
 $server:author bans %person from %server
 %person is banned from %community
 $mod:author refuses to update %mod
@@ -15,8 +15,8 @@ $mod:author refuses to port %mod to %runtime
 %person says %server is better than %server
 %person says %runtime is better than %runtime
 %person says %platform is better than %platform
-%mod %badverb under %platform
-%person says %platform %badverb
+%mod %badverbpresent under %platform
+%person says %platform %badverbpresent
 %person says players should use %platform
 %person says players should not use %platform
 %person says players should play on %runtime
