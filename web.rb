@@ -2,7 +2,15 @@ require 'sinatra'
 require './draminate'
 
 get '/' do
-	erb :drama
+	seed = Random.new_seed
+	Random.srand(seed)
+	erb :drama, locals: {seed: seed}
+end
+
+get '/:seed' do
+	seed = params[:seed].to_i
+	Random.srand(seed)
+	erb :drama, locals: {seed: seed}
 end
 
 __END__
@@ -16,4 +24,5 @@ __END__
 </style>
 <div class='drama'><%= draminate %></div>
 <a href='/'>Get more drama!</a> <br>
+<a href='/<%= seed %>'>Permalink</a> <br>
 <a href='https://github.com/Gaelan/MCDrama'>GitHub
