@@ -1,38 +1,59 @@
+require 'json'
+require 'open-uri'
+
 class MissingData < StandardError; end
 
-def select_from_dict(dict, item)
-	throw MissingData.new unless item
-	hash = Hash[File.read("data/#{dict}").split("\n").map { |x| x.split ":" }]
-	throw MissingData.new unless hash[item]
-	hash[item]
+$parsed = {}
+def read_array(name, version)
+	$parsed["#{version}:#{name}"] ||= if version == current_version
+										  File.read("data/#{name}").split("\n")
+									  else
+										  open("https://raw.githubusercontent.com/Gaelan/MCDrama/#{version}/data/#{name}").read.split("\n")
+									  end
 end
 
-def select_from_file(name, selections = {})
-	File.read("data/#{name}").split("\n").sample
+def current_version
+	begin
+		JSON.parse(File.read('/etc/heroku/dyno'))['release']['commit']
+	rescue
+		'_dev_'
+	end
+end
+
+def select_from_dict(dict, item, version)
+	raise MissingData unless item
+	hash = Hash.new { |h, k| h[k] = [] }
+	read_array(dict, version).map { |x| x.split ":" }.each { |k,v| hash[k] << v }
+	raise MissingData if hash[item].empty?
+	hash[item].sample
+end
+
+def select_from_file(name, version, selections = {})
+	read_array(name, version).sample
 	.gsub(/\%([a-z]+)/) do
 		type = $1
-		value = select_from_file type, selections
+		value = select_from_file type, version, selections
 		selections[type] = value unless selections[type]
 		value
 	end
 end
 
-def draminate
+def draminate(version='_dev_')
 	begin
 		selections = {}
-		drama = select_from_file 'root', selections
+		drama = select_from_file 'root', version, selections
 		drama.gsub(/\$([a-z]+):([a-z]+)/) do
 			source_type = $1
 			attr = $2
 			p source_type if source_type == 'mentioned'
 			if attr == 'mentioned'
-				throw MissingData.new unless selections[source_type]
+				raise MissingData unless selections[source_type]
 				selections[source_type]
 			else	
-				select_from_dict(attr, selections[source_type])
+				select_from_dict(attr, selections[source_type], version)
 			end
 		end
-	rescue StandardError => e
+	rescue MissingData => e
 		puts "retrying for #{e}"
 		retry
 	end
