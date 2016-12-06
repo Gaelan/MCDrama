@@ -24,7 +24,7 @@ $mod:author refuses to port %mod to %runtime
 $mod:author adds %mod to %platform
 $pack:author adds %pack to %platform
 $mod:author refuses to support %mod
-%person refuses to support %person
+%person refuses to support %mod
 %mod dropped support for %mod
 %mod now depends on %mod
 %person says his drama generator is better than %person's
