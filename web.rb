@@ -43,7 +43,7 @@ __END__
 <!doctype html>
 <html>
 <head>
-<meta name='description' content='<%= drama %>'>
+<meta name='description' content="<%= drama %>">
 </head>
 <body>
 <style>
