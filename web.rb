@@ -34,7 +34,7 @@ end
 get '/:version/:seed' do
 	seed = params[:seed].to_i(36)
 	Random.srand(seed)
-	erb :drama, locals: {seed: seed, drama: draminate(params[:version]), version: params[:version]}
+	erb :drama, locals: {seed: seed.to_s(36), drama: draminate(params[:version]), version: params[:version]}
 end
 
 get '/:legacy_seed' do
