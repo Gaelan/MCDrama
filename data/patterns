@@ -10,3 +10,6 @@ $mod:author makes %mod %badverb in %pack
 $server:author bans %person from %server
 $mod:author refuses to update %mod
 $mod:author refuses to port %mod to %runtime
+$mod:author refuses to support %mod
+%mod dropped support for %mod
+%mod now depends on %mod
