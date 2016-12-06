@@ -38,7 +38,7 @@ def select_from_file(name, version, selections = {})
 	end
 end
 
-def draminate(version='_dev_')
+def draminate(version=current_version)
 	begin
 		selections = {}
 		drama = select_from_file 'root', version, selections
