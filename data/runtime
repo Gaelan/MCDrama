@@ -1,5 +1,6 @@
 1.10.2
 1.11
+1.12
 1.4.7
 1.6.4
 1.7.10
@@ -8,8 +9,11 @@
 Bukkit
 C++ Minecraft
 Cauldron
+Fabric
 Forge
 Java Minecraft
+MC Win10
+MCPE
 ModLoader
 OpenModLoader
 PaperModLoader

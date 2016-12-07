@@ -1,4 +1,6 @@
 BSODs:are
+IndexArrayOutOfBoundsException:is
+NullPointerException:is
 bugs:are
 crashes:are
 discourse:is
