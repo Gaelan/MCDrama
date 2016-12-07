@@ -16,8 +16,8 @@ def current_version
 	begin
 		JSON.parse(File.read('/etc/heroku/dyno'))['release']['commit']
 	rescue
-		'_dev_'
-	end
+		`git rev-parse HEAD`.strip
+	end[0..5]
 end
 
 def select_from_dict(dict, item, version)
