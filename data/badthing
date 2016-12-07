@@ -1,5 +1,6 @@
-
 BSODs
+IndexArrayOutOfBoundsException
+NullPointerException
 a ton of multiblocks
 bugs
 crashes
