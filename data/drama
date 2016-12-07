@@ -8,6 +8,7 @@ $mod:author refuses to fix %mod's incompatibility with %mod
 $mod:author refuses to port %mod to %runtime
 $mod:author refuses to support %mod
 $mod:author refuses to update %mod
+$mod:author rejects %person's pull request to %mod, which %prdeny
 $mod:author removes %feature from %mod
 $mod:author removes config from %mod for %feature
 $pack:author adds %pack to %platform
@@ -41,4 +42,3 @@ $server:author bans %person from %server
 if they reach their Patreon goal, %person will %action
 in a move to get %internetpoints, %person decides to %action
 in response to %person's decision to %action, %person decides to %action
-$mod:author rejects %person's pull request to %mod, which %prdeny
