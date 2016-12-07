@@ -41,3 +41,4 @@ $server:author bans %person from %server
 if they reach their Patreon goal, %person will %action
 in a move to get %internetpoints, %person decides to %action
 in response to %person's decision to %action, %person decides to %action
+$mod:author rejects $person's pull request to %mod, which %prdeny
