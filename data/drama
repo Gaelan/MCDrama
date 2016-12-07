@@ -9,13 +9,18 @@ $mod:author refuses to port %mod to %runtime
 $mod:author refuses to support %mod
 $mod:author refuses to update %mod
 $mod:author removes %feature from %mod
-$mod:author removes config from %mod for %feature 
+$mod:author removes config from %mod for %feature
 $pack:author adds %pack to %platform
 $pack:author removes %mod from %pack
 $server:author bans %person from %server
 %mod %badverbpresent under %platform
 %mod dropped support for %mod
 %mod now depends on %mod
+%person creates a fork of %mod
+%person creates a fork of %mod with %feature
+%person creates a fork of %mod, citing its %badthing
+%person creates a fork of %mod, claiming that it is %badadjective
+%person decides to %action
 %person dislikes %mod
 %person is banned from %community
 %person refuses to support %mod
@@ -33,7 +38,6 @@ $server:author bans %person from %server
 %person says players should not use %platform
 %person says players should play on %runtime
 %person says players should use %platform
-%person creates a fork of %mod
-%person creates a fork of %mod, citing its %badthing
-%person creates a fork of %mod, claiming that it is %badadjective
-%person creates a fork of %mod with %feature
+if they reach their Patreon goal, %person will %action
+in a move to get %internetpoints, %person decides to %action
+in response to %person's decision to %action, %person decides to %action
