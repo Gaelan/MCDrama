@@ -63,6 +63,7 @@ __END__
 <div class='drama'><%= drama %></div>
 <a href='/'>Get more drama!</a> <br>
 <a href='/<%= version %>/<%= seed %>'>Permalink</a> <br>
-<a href='https://github.com/Gaelan/MCDrama'>GitHub
+<a href='https://github.com/Gaelan/MCDrama'>GitHub</a> <br>
+<a href='https://twitter.com/MCDramaLlama'>Twitter</a>
 </body>
 </html>
