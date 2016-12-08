@@ -5,56 +5,55 @@ class MissingData < StandardError; end
 
 $parsed = {}
 def read_array(name, version)
-	$parsed["#{version}:#{name}"] ||= if version == current_version
-										  File.read("data/#{name}").split("\n")
-									  else
-										  open("https://raw.githubusercontent.com/Gaelan/MCDrama/#{version}/data/#{name}").read.split("\n")
-									  end
+  $parsed["#{version}:#{name}"] ||= if version == current_version
+									  File.read("data/#{name}").split("\n")
+									else
+									  open("https://raw.githubusercontent.com/Gaelan/MCDrama/#{version}/data/#{name}").read.split("\n")
+									end
 end
 
 def current_version
-	begin
-		JSON.parse(File.read('/etc/heroku/dyno'))['release']['commit']
-	rescue
-		`git rev-parse HEAD`.strip
-	end[0..5]
+  $current_version ||= begin
+						 JSON.parse(File.read('/etc/heroku/dyno'))['release']['commit']
+					   rescue
+						 `git rev-parse HEAD`.strip
+					   end[0..5]
 end
 
 def select_from_dict(dict, item, version)
-	raise MissingData unless item
-	hash = Hash.new { |h, k| h[k] = [] }
-	read_array(dict, version).map { |x| x.split ":" }.each { |k,v| hash[k] << v }
-	raise MissingData if hash[item].empty?
-	hash[item].sample
+  raise MissingData unless item
+  hash = Hash.new { |h, k| h[k] = [] }
+  read_array(dict, version).map { |x| x.split ":" }.each { |k,v| hash[k] << v }
+  raise MissingData if hash[item].empty?
+  hash[item].sample
 end
 
 def select_from_file(name, version, selections = {})
-	read_array(name, version).sample
-	.gsub(/\%([a-z]+)/) do
-		type = $1
-		value = select_from_file type, version, selections
-		selections[type] = value unless selections[type]
-		value
-	end
+  read_array(name, version).sample
+  .gsub(/\%([a-z]+)/) do
+	type = $1
+	value = select_from_file type, version, selections
+	selections[type] = value unless selections[type]
+	value
+  end
 end
 
 def draminate(version=current_version)
-	begin
-		selections = {}
-		drama = select_from_file 'root', version, selections
-		drama.gsub(/\$([a-z]+):([a-z]+)/) do
-			source_type = $1
-			attr = $2
-			p source_type if source_type == 'mentioned'
-			if attr == 'mentioned'
-				raise MissingData unless selections[source_type]
-				selections[source_type]
-			else	
-				select_from_dict(attr, selections[source_type], version)
-			end
-		end
-	rescue MissingData => e
-		puts "retrying for #{e}"
-		retry
+  begin
+	selections = {}
+	drama = select_from_file 'root', version, selections
+	drama.gsub(/\$([a-z]+):([a-z]+)/) do
+	  source_type = $1
+	  attr = $2
+	  p source_type if source_type == 'mentioned'
+	  if attr == 'mentioned'
+		raise MissingData unless selections[source_type]
+		selections[source_type]
+	  else	
+		select_from_dict(attr, selections[source_type], version)
+	  end
 	end
+  rescue MissingData => e
+	retry
+  end
 end
