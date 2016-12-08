@@ -62,8 +62,9 @@ __END__
 </style>
 <div class='drama'><%= drama %></div>
 <a href='/'>Get more drama!</a> <br>
-<a href='/<%= version %>/<%= seed %>'>Permalink</a> <br>
-<a href='https://github.com/Gaelan/MCDrama'>GitHub</a> <br>
-<a href='https://twitter.com/MCDramaLlama'>Twitter</a>
+<a href='/<%= version %>/<%= seed %>'>Permalink</a> <br><br>
+<a href='https://github.com/Gaelan/MCDrama'>GitHub</a> |
+<a href='https://twitter.com/MCDramaLlama'>Twitter</a> |
+<a href='https://reddit.com/r/mcdramagen'>Subreddit</a>
 </body>
 </html>
