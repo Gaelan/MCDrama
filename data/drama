@@ -42,3 +42,6 @@ $server:author bans %person from %server
 if they reach their Patreon goal, %person will %action
 in a move to get %internetpoints, %person decides to %action
 in response to %person's decision to %action, %person decides to %action
+$pack:author replaces %mod with $mod:alternative in %pack because it %badverbpresent
+$pack:author replaces %mod with $mod:alternative in %pack because it is too %badadjective
+%person says %mod is better than $mod:alternative
