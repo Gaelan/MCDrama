@@ -46,3 +46,4 @@ $pack:author replaces %mod with $mod:alternative in %pack because it %badverbpre
 $pack:author replaces %mod with $mod:alternative in %pack because it is too %badadjective
 %person says %mod is better than $mod:alternative
 %person ships %person with %person
+%person breaks EULA, causing %person to leave %community
