@@ -3,3 +3,4 @@ $mod:modfeature
 %power support
 config support
 update notifier
+ore %tupling
