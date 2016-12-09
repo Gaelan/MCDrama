@@ -4,3 +4,5 @@ $mod:modfeature
 config support
 update notifier
 ore %tupling
+lossy cables
+power conversion
