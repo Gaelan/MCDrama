@@ -52,6 +52,7 @@ __END__
 <html>
 <head>
 <meta name='description' content="<%= drama %>">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 <body>
 <style>
