@@ -58,7 +58,7 @@ __END__
 * {
 	text-align: center;
 }
-.drama { font-size: 32px; }
+.drama { font-size: 32px; min-height: 10ex; }
 </style>
 <div class='drama'><%= drama %></div>
 <a href='/'>Get more drama!</a> <br>
