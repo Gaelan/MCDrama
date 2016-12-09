@@ -22,23 +22,14 @@ $server:author bans %person from %server
 %person creates a fork of %mod, citing its %badthing
 %person creates a fork of %mod, claiming that it is %badadjective
 %person decides to %action
-%person dislikes %mod
 %person is banned from %community
 %person refuses to support %mod
 %person says %badthing $badthing:is not a problem
 %person says %mod belongs in %pack
 %person says %mod causes %badthing
 %person says %mod is %badadjective
-%person says %pack is better than %pack
 %person says %platform %badverbpresent
-%person says %platform is better than %platform
-%person says %runtime is better than %runtime
-%person says %server is better than %server
 %person says his drama generator is better than %person's
-%person says players should not play on %runtime
-%person says players should not use %platform
-%person says players should play on %runtime
-%person says players should use %platform
 if they reach their Patreon goal, %person will %action
 in a move to get %internetpoints, %person decides to %action
 in response to %person's decision to %action, %person decides to %action
@@ -51,3 +42,4 @@ $pack:author refuses to put any mod in %pack without %feature
 %person refuses to play %mod unless it has %feature
 %person mistakenly believes %mod was made by %person
 $mod:author says the %badthing in %mod $badthing:is actually a feature
+%boringopinions
