@@ -47,3 +47,6 @@ $pack:author replaces %mod with $mod:alternative in %pack because it is too %bad
 %person says %mod is better than $mod:alternative
 %person ships %person with %person
 %person breaks EULA, causing %person to leave %community
+$pack:author refuses to put any mod in %pack without %feature
+%person refuses to play %mod unless it has %feature
+%person mistakenly believes %mod was made by %person
