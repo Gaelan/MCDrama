@@ -50,3 +50,4 @@ $pack:author replaces %mod with $mod:alternative in %pack because it is too %bad
 $pack:author refuses to put any mod in %pack without %feature
 %person refuses to play %mod unless it has %feature
 %person mistakenly believes %mod was made by %person
+%mod:author says the %badthing in %mod $badthing:is actually a feature
