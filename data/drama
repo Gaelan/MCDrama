@@ -31,15 +31,19 @@ $server:author bans %person from %server
 %person creates a fork of %mod, claiming that it is %badadjective
 %person decides to %action
 %person is banned from %community
+%person is banned from %community for %badthing
 %person is pinged one too many times on %discord
 %person mistakenly believes %mod was made by %person
 %person refuses to play %mod unless it has %feature
 %person refuses to support %mod
+%person refuses to support %mod because of %badthing
 %person says %badthing $badthing:is not a problem
 %person says %mod belongs in %pack
 %person says %mod causes %badthing
+%person says %mod causes %badthing because of %badthing
 %person says %mod is %badadjective
 %person says %mod is better than $mod:alternative
+%person says %mod is %badadjective because of %badthing
 %person says %platform %badverbpresent
 %person says his drama generator is better than %person's
 %person ships %person with %person
