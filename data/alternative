@@ -1,17 +1,17 @@
-The One Probe:WAILA
-The One Probe:Hwyla
-Hwyla:WAILA
+Chisel:that other fork of Chisel
+Ender IO:Thermal Expansion
 Hwyla:The One Probe
-WAILA:Hwyla
-WAILA:The One Probe
+Hwyla:WAILA
+IC2:Thermal Expansion
 JEI:NEI
 JEI:TMI
-NEI:TMI
 NEI:JEI
+NEI:TMI
 TMI:JEI
 TMI:NEI
-Ender IO:Thermal Expansion
+The One Probe:Hwyla
+The One Probe:WAILA
 Thermal Expansion:Ender IO
 Thermal Expansion:IC2
-IC2:Thermal Expansion
-Chisel:that other fork of Chisel
+WAILA:Hwyla
+WAILA:The One Probe

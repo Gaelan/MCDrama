@@ -1,9 +1,9 @@
 %person dislikes %mod
+%person says %pack is better than %pack
+%person says %platform is better than %platform
+%person says %runtime is better than %runtime
+%person says %server is better than %server
 %person says players should not play on %runtime
 %person says players should not use %platform
 %person says players should play on %runtime
 %person says players should use %platform
-%person says %platform is better than %platform
-%person says %runtime is better than %runtime
-%person says %server is better than %server
-%person says %pack is better than %pack

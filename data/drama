@@ -11,39 +11,39 @@ $mod:author refuses to update %mod
 $mod:author rejects %person's pull request to %mod, which %prdeny
 $mod:author removes %feature from %mod
 $mod:author removes config from %mod for %feature
+$mod:author says the %badthing in %mod $badthing:is actually a feature
 $pack:author adds %pack to %platform
+$pack:author refuses to put any mod in %pack without %feature
 $pack:author removes %mod from %pack
+$pack:author replaces %mod with $mod:alternative in %pack because it %badverbpresent
+$pack:author replaces %mod with $mod:alternative in %pack because it is too %badadjective
 $server:author bans %person from %server
+%boringopinions
 %mod %badverbpresent under %platform
 %mod dropped support for %mod
+%mod is removed from %platform because it contains %badthing
 %mod now depends on %mod
+%person accidentally mentions @everyone on %discord
+%person breaks EULA, causing %person to leave %community
 %person creates a fork of %mod
 %person creates a fork of %mod with %feature
 %person creates a fork of %mod, citing its %badthing
 %person creates a fork of %mod, claiming that it is %badadjective
 %person decides to %action
 %person is banned from %community
+%person is pinged one too many times on %discord
+%person mistakenly believes %mod was made by %person
+%person refuses to play %mod unless it has %feature
 %person refuses to support %mod
 %person says %badthing $badthing:is not a problem
 %person says %mod belongs in %pack
 %person says %mod causes %badthing
 %person says %mod is %badadjective
+%person says %mod is better than $mod:alternative
 %person says %platform %badverbpresent
 %person says his drama generator is better than %person's
-%person accidentally mentions @everyone on %discord
-%person is pinged one too many times on %discord
+%person ships %person with %person
+%person suggests %mod should be rewritten in %language
 if they reach their Patreon goal, %person will %action
 in a move to get %internetpoints, %person decides to %action
 in response to %person's decision to %action, %person decides to %action
-$pack:author replaces %mod with $mod:alternative in %pack because it %badverbpresent
-$pack:author replaces %mod with $mod:alternative in %pack because it is too %badadjective
-%person says %mod is better than $mod:alternative
-%person ships %person with %person
-%person breaks EULA, causing %person to leave %community
-$pack:author refuses to put any mod in %pack without %feature
-%person refuses to play %mod unless it has %feature
-%person mistakenly believes %mod was made by %person
-%person suggests %mod should be rewritten in %language
-$mod:author says the %badthing in %mod $badthing:is actually a feature
-%boringopinions
-%mod is removed from %platform because it contains %badthing

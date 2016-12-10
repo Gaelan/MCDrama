@@ -8,6 +8,7 @@
 1.9.4
 Bukkit
 C++ Minecraft
+Canary
 Cauldron
 Fabric
 Forge
@@ -16,11 +17,10 @@ MC Win10
 MCPE
 Minecraft 2.0
 ModLoader
+Neptune
 OpenModLoader
+Paper
 PaperModLoader
 Spigot
 Sponge
 beta 1.8
-Canary
-Neptune
-Paper

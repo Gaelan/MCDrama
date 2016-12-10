@@ -2,7 +2,7 @@ $mod:modfeature
 %mod integration
 %power support
 config support
-update notifier
-ore %tupling
 lossy cables
+ore %tupling
 power conversion
+update notifier
