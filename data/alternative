@@ -1,4 +1,8 @@
+AE2:Refined Storage
+AE2:Correlated Potentialistics
 Chisel:that other fork of Chisel
+Correlated Potentialistics:AE2
+Correlated Potentialistics:Refined Storage
 Ender IO:Thermal Expansion
 Hwyla:The One Probe
 Hwyla:WAILA
@@ -7,6 +11,8 @@ JEI:NEI
 JEI:TMI
 NEI:JEI
 NEI:TMI
+Refined Storage:AE2
+Refined Storage:Correlated Potentialistics
 TMI:JEI
 TMI:NEI
 The One Probe:Hwyla
