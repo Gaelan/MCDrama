@@ -30,6 +30,7 @@ $server:author bans %person from %server
 %person creates a fork of %mod, citing its %badthing
 %person creates a fork of %mod, claiming that it is %badadjective
 %person decides to %action
+%person forks %mod because $mod:author decided to %action
 %person is banned from %community
 %person is banned from %community for %badthing
 %person is pinged one too many times on %discord
