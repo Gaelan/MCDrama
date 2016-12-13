@@ -1,3 +1,5 @@
+breaks %mod
+breaks %feature
 causes %badthing
 causes explosions
 corrupts chunks
