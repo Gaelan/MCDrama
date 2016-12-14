@@ -11,6 +11,7 @@ $mod:author refuses to update %mod
 $mod:author rejects %person's pull request to %mod, which %prdeny
 $mod:author removes %feature from %mod
 $mod:author removes config from %mod for %feature
+$mod:author renames %mod to %modname
 $mod:author says the %badthing in %mod $badthing:is actually a feature
 $pack:author adds %pack to %platform
 $pack:author refuses to put any mod in %pack without %feature
@@ -38,6 +39,7 @@ $server:author bans %person from %server
 %person refuses to play %mod unless it has %feature
 %person refuses to support %mod
 %person refuses to support %mod because of %badthing
+%person releases their new mod, %modname
 %person says %badthing $badthing:is not a problem
 %person says %mod belongs in %pack
 %person says %mod causes %badthing
