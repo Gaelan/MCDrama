@@ -30,7 +30,7 @@ end
 
 def select_from_file(name, version, selections = {})
   read_array(name, version).sample
-  .gsub(/\%([a-z]+)/) do
+  .gsub(/\%([a-z]+)\%?/) do
 	type = $1
 	value = select_from_file type, version, selections
 	selections[type] = value unless selections[type]
