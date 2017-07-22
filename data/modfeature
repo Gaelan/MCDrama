@@ -3,9 +3,9 @@ AE2:spatial cells
 ArmorPlus:Coal Armor's Night Vision
 ArmorPlus:TGOTG
 Baubles:a shoelaces slot
-Botania:RF generating flower
 Botania:alfheim dimension
 Botania:passive flowers
+Botania:RF generating flower
 Buildcraft:gates
 Buildcraft:quarries
 Charset:backpacks
@@ -20,8 +20,8 @@ Draconic Evolution:balance
 Ender Zoo:annoying mobs
 Extra Utilites:spikes
 FML:coremods
-FTBUtilites:chunk claiming
 Forge:coremods
+FTBUtilites:chunk claiming
 Harvestcraft:gardens
 Immersive Engineering:multiblocks
 Iron Chests:dirt chests
@@ -31,28 +31,28 @@ JEI:recipes
 JourneyMap:death points
 JourneyMap:waypoints
 Literal Ascension:stepladders
-NEI:buttons
-NEI:recipes
 Natura:oreberry bushes
 Natura:xp bushes
+NEI:buttons
+NEI:recipes
 OpenComputers:JavaScript support
 OpenComputers:Lua support
 OpenComputers:power usage
+p455w0rds Things:/dank/null
+p455w0rds Things:Voidifier
 Psi:caster blocks
 Quark:pirate ships
 Quark:red creepers
 Quark:stair recipes
-RFTools:builders
-RFTools:diamond block dimensions
 Railcraft:more expensive tracks
 Railcraft:signals
 Refraction:lasers
+RFTools:builders
+RFTools:diamond block dimensions
 RotaryCraft:Extractors
 RotaryCraft:math
 Storage Drawers:Ender Drawers
 Storage Drawers:locks
-TMI:buttons
-TMI:recipes
 TechReborn:Nuke
 Thaumcraft:nodes
 Thaumcraft:research
@@ -61,6 +61,6 @@ The One Probe:horse stats
 Tinker's Construct:crossbows
 Tinker's Construct:hammers
 Tinker's Construct:smelteries
+TMI:buttons
+TMI:recipes
 Wireless Crafting Terminal:Infinity Booster Card
-p455w0rds Things:/dank/null
-p455w0rds Things:Voidifier
