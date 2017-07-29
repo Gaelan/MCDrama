@@ -1,24 +1,3 @@
-$mod:author adds %feature to %mod
-$mod:author adds %mod to %platform
-$mod:author adds config option to %mod for %feature
-$mod:author makes %mod %badverbinfinitive in %pack
-$mod:author makes %mod %badverbinfinitive when in a pack with %mod
-$mod:author refuses to add config to %mod for %feature
-$mod:author refuses to fix %mod's incompatibility with %mod
-$mod:author refuses to port %mod to %runtime
-$mod:author refuses to support %mod
-$mod:author refuses to update %mod
-$mod:author rejects %person's pull request to %mod, which %prdeny
-$mod:author removes %feature from %mod
-$mod:author removes config from %mod for %feature
-$mod:author renames %mod to %modname
-$mod:author says the %badthing in %mod $badthing:is actually a feature
-$pack:author adds %pack to %platform
-$pack:author refuses to put any mod in %pack without %feature
-$pack:author removes %mod from %pack
-$pack:author replaces %mod with $mod:alternative in %pack because it %badverbpresent
-$pack:author replaces %mod with $mod:alternative in %pack because it is too %badadjective
-$server:author bans %person from %server
 %boringopinions
 %mod %badverbpresent under %platform
 %mod dropped support for %mod
@@ -45,12 +24,33 @@ $server:author bans %person from %server
 %person says %mod causes %badthing
 %person says %mod causes %badthing because of %badthing
 %person says %mod is %badadjective
-%person says %mod is better than $mod:alternative
 %person says %mod is %badadjective because of %badthing
+%person says %mod is better than $mod:alternative
 %person says %platform %badverbpresent
 %person says his drama generator is better than %person's
 %person ships %person with %person
 %person suggests %mod should be rewritten in %language
+$mod:author adds %feature to %mod
+$mod:author adds %mod to %platform
+$mod:author adds config option to %mod for %feature
+$mod:author makes %mod %badverbinfinitive in %pack
+$mod:author makes %mod %badverbinfinitive when in a pack with %mod
+$mod:author refuses to add config to %mod for %feature
+$mod:author refuses to fix %mod's incompatibility with %mod
+$mod:author refuses to port %mod to %runtime
+$mod:author refuses to support %mod
+$mod:author refuses to update %mod
+$mod:author rejects %person's pull request to %mod, which %prdeny
+$mod:author removes %feature from %mod
+$mod:author removes config from %mod for %feature
+$mod:author renames %mod to %modname
+$mod:author says the %badthing in %mod $badthing:is actually a feature
+$pack:author adds %pack to %platform
+$pack:author refuses to put any mod in %pack without %feature
+$pack:author removes %mod from %pack
+$pack:author replaces %mod with $mod:alternative in %pack because it %badverbpresent
+$pack:author replaces %mod with $mod:alternative in %pack because it is too %badadjective
+$server:author bans %person from %server
 an interaction between %mod and %mod causes %badthing
 if they reach their Patreon goal, %person will %action
 in a move to get %internetpoints, %person decides to %action

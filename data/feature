@@ -1,6 +1,6 @@
-$mod:modfeature
 %mod integration
 %power support
+$mod:modfeature
 config support
 lossy cables
 ore %tupling

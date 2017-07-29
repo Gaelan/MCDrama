@@ -6,6 +6,7 @@
 1.7.10
 1.8.9
 1.9.4
+beta 1.8
 Bukkit
 C++ Minecraft
 Canary
@@ -23,4 +24,3 @@ Paper
 PaperModLoader
 Spigot
 Sponge
-beta 1.8
