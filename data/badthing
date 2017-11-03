@@ -5,7 +5,7 @@ crashes
 discourse
 drama
 EULA violations
-IndexOutOfBoundsException
+ArrayIndexOutOfBoundsException
 item duplication
 log spam
 malicious code
