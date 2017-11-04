@@ -30,6 +30,7 @@
 %person says his drama generator is better than %person's
 %person ships %person with %person
 %person suggests %mod should be rewritten in %language
+%person wishes %modname would be released already
 $mod:author adds %feature to %mod
 $mod:author adds %mod to %platform
 $mod:author adds config option to %mod for %feature
@@ -45,11 +46,14 @@ $mod:author removes %feature from %mod
 $mod:author removes config from %mod for %feature
 $mod:author renames %mod to %modname
 $mod:author says the %badthing in %mod $badthing:is actually a feature
+$mod:author says the purpose of %mod is %modaction, just like in %modname
 $pack:author adds %pack to %platform
 $pack:author refuses to put any mod in %pack without %feature
 $pack:author removes %mod from %pack
 $pack:author replaces %mod with $mod:alternative in %pack because it %badverbpresent
 $pack:author replaces %mod with $mod:alternative in %pack because it is too %badadjective
+$pack:author demands %person write %modname
+$pack:author thinks $mod:author should rename %mod to %modname
 $server:author bans %person from %server
 an interaction between %mod and %mod causes %badthing
 if they reach their Patreon goal, %person will %action

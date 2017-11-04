@@ -5,7 +5,7 @@ crashes
 discourse
 drama
 EULA violations
-IndexArrayOutOfBoundsException
+ArrayIndexOutOfBoundsException
 item duplication
 log spam
 malicious code
@@ -15,3 +15,8 @@ NullPointerException
 power creep
 rage quits
 tons of multiblocks
+DCMAs
+scala array imports
+outdated memes
+random OpenGL matrix transforms
+ore dictionary corruption
