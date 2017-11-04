@@ -14,7 +14,7 @@ end
 
 def current_version
   $current_version ||= begin
-						 JSON.parse(File.read('/etc/heroku/dyno'))['release']['commit']
+						 ENV.fetch('HEROKU_SLUG_COMMIT')
 					   rescue
 						 `git rev-parse HEAD`.strip
 					   end[0..5]
