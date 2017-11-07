@@ -41,6 +41,7 @@ $mod:author refuses to fix %mod's incompatibility with %mod
 $mod:author refuses to port %mod to %runtime
 $mod:author refuses to support %mod
 $mod:author refuses to update %mod
+$mod:author removes %feature from %mod because of an interaction with %mod
 $mod:author rejects %person's pull request to %mod, which %prdeny
 $mod:author removes %feature from %mod
 $mod:author removes config from %mod for %feature
