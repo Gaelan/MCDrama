@@ -4,20 +4,25 @@ require 'open-uri'
 class MissingData < StandardError; end
 
 $parsed = {}
+$fetcher = File
+def set_file_fetcher(fetcher)
+  $fetcher = fetcher
+end
+
 def read_array(name, version)
   $parsed["#{version}:#{name}"] ||= if version == current_version
-									  File.read("data/#{name}").split("\n")
-									else
-									  open("https://raw.githubusercontent.com/Gaelan/MCDrama/#{version}/data/#{name}").read.split("\n")
-									end
+                                      $fetcher.open("data/#{name}").read.split("\n")
+                                    else
+                                      open("https://raw.githubusercontent.com/Gaelan/MCDrama/#{version}/data/#{name}").read.split("\n")
+                                    end
 end
 
 def current_version
   $current_version ||= begin
-						 ENV.fetch('HEROKU_SLUG_COMMIT')
-					   rescue
-						 `git rev-parse HEAD`.strip
-					   end[0..5]
+                         ENV.fetch('HEROKU_SLUG_COMMIT')
+                       rescue
+                         `git rev-parse HEAD`.strip
+                       end[0..5]
 end
 
 def select_from_dict(dict, item, version)
@@ -30,30 +35,30 @@ end
 
 def select_from_file(name, version, selections = {})
   read_array(name, version).sample
-  .gsub(/\%([a-z]+)\%?/) do
-	type = $1
-	value = select_from_file type, version, selections
-	selections[type] = value unless selections[type]
-	value
+    .gsub(/\%([a-z]+)\%?/) do
+    type = $1
+    value = select_from_file type, version, selections
+    selections[type] = value unless selections[type]
+    value
   end
 end
 
 def draminate(version=current_version)
   begin
-	selections = {}
-	drama = select_from_file 'root', version, selections
-	drama.gsub(/\$([a-z]+):([a-z]+)/) do
-	  source_type = $1
-	  attr = $2
-	  p source_type if source_type == 'mentioned'
-	  if attr == 'mentioned'
-		raise MissingData unless selections[source_type]
-		selections[source_type]
-	  else	
-		select_from_dict(attr, selections[source_type], version)
-	  end
-	end
+    selections = {}
+    drama = select_from_file 'root', version, selections
+    drama.gsub(/\$([a-z]+):([a-z]+)/) do
+      source_type = $1
+      attr = $2
+      p source_type if source_type == 'mentioned'
+      if attr == 'mentioned'
+        raise MissingData unless selections[source_type]
+        selections[source_type]
+      else	
+        select_from_dict(attr, selections[source_type], version)
+      end
+    end
   rescue MissingData => e
-	retry
+    retry
   end
 end
