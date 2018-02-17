@@ -4,6 +4,8 @@ causes %badthing
 causes explosions
 corrupts chunks
 crashes
+kills the framerate
+kills the tickrate
 makes the game too hard
 spams the log
 steals logins
