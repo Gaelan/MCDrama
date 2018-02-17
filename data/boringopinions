@@ -1,5 +1,8 @@
 %person dislikes %mod
+%person says %mod should be ported to %runtime
 %person says %pack is better than %pack
+%person says %pack should be made available on %platform
+%person says %pack should be made available on %runtime
 %person says %platform is better than %platform
 %person says %runtime is better than %runtime
 %person says %server is better than %server
