@@ -25,6 +25,10 @@ def current_version
                        end[0..5]
 end
 
+def set_current_version(ver)
+  $current_version = ver
+end
+
 def select_from_dict(dict, item, version)
   raise MissingData unless item
   hash = Hash.new { |h, k| h[k] = [] }
