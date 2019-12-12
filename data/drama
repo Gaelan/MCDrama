@@ -36,6 +36,7 @@
 $mod:author adds %feature to %mod
 $mod:author adds %mod to %platform
 $mod:author adds config option to %mod for %feature
+$mod:author insists the %badthing caused by %mod is actually %mod's fault
 $mod:author makes %mod %badverbinfinitive in %pack
 $mod:author makes %mod %badverbinfinitive when in a pack with %mod
 $mod:author refuses to add config to %mod for %feature
