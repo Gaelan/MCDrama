@@ -56,7 +56,7 @@ __END__
 <meta name="description" content="<%= drama %>">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="Gaelan">
-<meta name="theme-color" content="#EEEEEE">
+<meta name="theme-color" content="#111111">
 
 <meta property="og:title" content="MC Drama Generator">
 <meta property="og:type" content="website">
