@@ -28,20 +28,20 @@ end
 get '/' do
 	seed = Random.new_seed
 	Random.srand(seed)
-	erb :drama, locals: {seed: seed.to_s(36), version: current_version, drama: draminate}
+	erb :drama, locals: {seed: seed.to_s(36), version: current_version, drama: draminate, permalink: false}
 end
 
 get '/:version/:seed' do
 	seed = params[:seed].to_i(36)
 	Random.srand(seed)
-	erb :drama, locals: {seed: seed.to_s(36), drama: draminate(params[:version]), version: params[:version]}
+	erb :drama, locals: {seed: seed.to_s(36), drama: draminate(params[:version]), version: params[:version], permalink: true}
 end
 
 get '/:legacy_seed' do
 	seed = params[:legacy_seed].to_i
 	version = '6b51081190f6f87d32aa32a52e3c273a7798cebf' # The last version to use this seed format.
 	Random.srand(seed)
-	erb :drama, locals: {seed: seed.to_s(36), drama: draminate(version), version: version}
+	erb :drama, locals: {seed: seed.to_s(36), drama: draminate(version), version: version, permalink: true}
 end
 
 
@@ -55,13 +55,16 @@ __END__
 <meta charset="utf-8">
 <meta name="description" content="<%= drama %>">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="author" content="Gaelan">
 <meta name="theme-color" content="#111111">
 
 <meta property="og:title" content="MC Drama Generator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://ftb-drama.herokuapp.com/">
+<% if permalink %>
+<meta property="og:url" content="http://ftb-drama.herokuapp.com/<%= version %>/<%= seed %>">
 <meta property="og:description" content="<%= drama %>">
+<% else %>
+<meta property="og:url" content="http://ftb-drama.herokuapp.com/">
+<% end %>
 </head>
 <body>
 <style>
@@ -76,9 +79,15 @@ __END__
 	justify-content: center;
 }
 body {
-	color: #eee;
-	background-color: #111;
+	color: #111;
+	background-color: #eee;
 	font-family: "Roboto", "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #eee;
+		background-color: #111;
+	}
 }
 a {
 	color: #79C;
