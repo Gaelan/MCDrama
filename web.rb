@@ -51,15 +51,45 @@ __END__
 <!doctype html>
 <html>
 <head>
-<meta name='description' content="<%= drama %>">
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>MC Drama Generator</title>
+<meta charset="utf-8">
+<meta name="description" content="<%= drama %>">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="author" content="Gaelan">
+<meta name="theme-color" content="#111111">
+
+<meta property="og:title" content="MC Drama Generator">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://ftb-drama.herokuapp.com/">
+<meta property="og:description" content="<%= drama %>">
 </head>
 <body>
 <style>
 * {
 	text-align: center;
 }
-.drama { font-size: 32px; min-height: 10ex; }
+.drama {
+	font-size: 32px;
+	min-height: 10ex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+body {
+	color: #eee;
+	background-color: #111;
+	font-family: "Roboto", "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+a {
+	color: #79C;
+	text-decoration: none;
+}
+a:visited {
+	color: #88B;
+}
+a:hover {
+	color: white;
+}
 </style>
 <div class='drama'><%= drama %></div>
 <a href='/'>Get more drama!</a> <br>
