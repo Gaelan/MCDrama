@@ -2,11 +2,11 @@
 %power support
 $mod:modfeature
 config support
+configuration with %doctype files
 lossy cables
 ore %tupling
 power conversion
 update notifier
-json recipes
 %doctype recipes
 immersive %modaction
 performance optimizations
