@@ -14,10 +14,14 @@ Buildcraft
 Carpenter's Blocks
 CCT
 Charset
+ChickenASM
+Chicken Chunks
 Chisel
 Chisel and Bits
 Chromaticraft
 Clipboard
+CodeChickenCore
+CodeChickenLib
 ComputerCraft
 Correlated Potentialistics
 Create
@@ -27,6 +31,7 @@ Draconic Evolution
 Embers
 Emporium
 Ender IO
+Ender Storage
 Ender Zoo
 EvilCraft
 Exchangers
@@ -36,6 +41,7 @@ Fabric
 Fabric API
 Fluxed Redstone
 FML
+FMP
 FoamFix
 Forestry
 Forge
@@ -66,6 +72,7 @@ Mekanism
 Mekfarm
 MFR
 Mob Settings
+MrTJPCore
 Mubble
 mxTune
 Natura
@@ -75,6 +82,9 @@ OpenBlocks
 OpenComputers
 Optifine
 p455w0rds Things
+Project Red
+Project Red Extended
+ProjectX
 Psi
 Psionic Addons
 Purely Colors
@@ -84,6 +94,7 @@ RebornCore
 Refined Storage
 Refraction
 REI
+Reliquia
 RFTools
 Roots
 Rotarycraft
@@ -104,11 +115,13 @@ TheCakeMod
 Thermal Expansion
 Tinker's Construct
 TMI
+Translocators
 Twilight Forest
 Vitality
 VoxelMap
 WAILA
 Wireless Crafting Terminal
+Wireless Redstone CBE
 WorldEdit
 XNet
 XPTeleporters

@@ -17,10 +17,14 @@ Botania:Vazkii
 Buildcraft:asie
 Carpenter's Blocks:Syntaxial
 Charset:asie
+ChickenASM:chickenbones
+Chicken Chunks:chicken_bones
 Chisel and Bits:AlgorithmX2
 Chisel:tterrag
 Chromaticraft:Reika
 Clipboard:Shadowfacts
+CodeChickenCore:chicken_bones
+CodeChickenLib:chicken_bones
 ComputerCraft:dan200
 Covens Reborn:zabi94
 Crackpack:FTB
@@ -35,6 +39,7 @@ Emporium:TheRealp455w0rd
 Emporium:wiiv
 Enchanting Plus:Darkhax
 Ender IO:CrazyPants
+Ender Storage:chicken_bones
 Ender Zoo:CrazyPants
 Enigmatica:NillerUdenDild
 EvilCraft:rubensworks
@@ -49,10 +54,10 @@ Fabric API:modmuss50
 Fabric API:grondag
 Fabric API:player
 FML:LexManos
+FMP:chickenbones
 Forestry:mezz
 Forever Stranded:GWSheridan
 Forge:LexManos
-Forgecraft:Pahimar
 ForgeCraft:Pahimar
 FTB Infinity:FTB
 FTB Revelation:FTB
@@ -76,6 +81,7 @@ JourneyMap:techbrew
 Just Enough Dimensions:masa
 JustNuggets:DeflatedPickle
 LatBlocks:LatvianModder
+Mad World Revised:KitsuneAlex
 MatterOverdrive:SimeonRadivoev
 Mekanism:aidancbrady
 Mekfarm:Face_of_Cat
@@ -84,6 +90,7 @@ MFR:skyboy206
 Minecraft:Notch
 Modern Skyblock:EmosewaGamer
 Modularity attempt #293343:TheCodedOne
+MrTJPCore:MrTJP
 mxTune:Aeronica
 Natura:mDiyo
 NEI:chicken_bones
@@ -93,12 +100,16 @@ p455w0rds Things:TheRealp455w0rd
 Planetary:TheCodedOne
 Plants:Shadows_of_Fire
 Project Ozone:TheCazadorSniper
+Project Red:MrTJP
+Project Red Extended:BeastLe9enD
+ProjectX:KitsuneAlex
 Psi:Vazkii
 Purely Colors:ADeathlyTouch
 Quark:Vazkii
 Radon:Elucent
 Railcraft:CovertJaguar
 Regrowth:thephoenixlodge
+Reliquia:KitsuneAlex
 Resonant Rise:KirinDave
 Respawnable Pets:MoriyaShiine
 RFTools:McJty
@@ -130,10 +141,13 @@ Thermal Expansion:KingLemming
 Tinker's Construct:mDiyo
 TMI:Marglyph
 TPPI:TehNut
+Translocators:chicken_bones
 Twilight Forest:Benimatic
 Vitality:raphy
 Voidaic Arcania:Camellias_
 WAILA:ProfMobius
 Wireless Crafting Terminal:TheRealp455w0rd
+Wireless Redstone CBE:chicken_bones
+XLoader:KitsuneAlex
 XPTeleporters:LatvianModder
 XNet:McJty
